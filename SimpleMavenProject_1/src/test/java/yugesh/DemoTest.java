@@ -1,5 +1,6 @@
 package yugesh;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class DemoTest 
@@ -7,7 +8,7 @@ public class DemoTest
 	@Test
 	public void Example()
 	{
-		report
+		Reporter.log("EXAMPLE EXECUTED",true);
 	}
 
 }
